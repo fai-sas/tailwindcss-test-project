@@ -7,65 +7,128 @@
     <title>Mini Projects</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body class="bg-blue-800 debug-screens">
-    <div class="container min-h-screen p-2 mx-auto bg-gray-100">
-      <!-- <! - page header /-> -->
-      <div>
-        <h1>
-          Tom Gonzales home training <br />
-          I'll get you in shape!
-        </h1>
-        <h2>Muscle building • Functional training • Nutritional advice</h2>
-      </div>
+  <body class="text-gray-600 font-body">
+    <article>
+      <!-- content wrapper -->
+      <section>
+        <nav>
+          <!-- start of navbar -->
+          <div>
+            <h1 class="p-4 font-bold uppercase border-b border-gray-100">
+              <a href="/" class="">Food Ninja</a>
+            </h1>
+          </div>
+          <ul>
+            <li class="font-bold text-gray-700">
+              <a href="#">
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>About</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <!-- end of navbar -->
 
-      <!-- <! - picture -> -->
-      <div id="image">
-        <img src="image/tom.jpg" alt="Tom Gonzales Online Training" />
-      </div>
-
-      <!-- Services -->
-      <div id="services">
-        <h3>I offer you:</h3>
-        <ul>
-          <li>
-            Lessons via Skype and you can record all sessions and watch them
-            again later.
-          </li>
-          <li>Holistic full body training</li>
-          <li>Training without equipment</li>
-          <li>Pain reduction</li>
-          <li>Tailored nutrition plans</li>
-        </ul>
-        <h3>My qualifications:</h3>
-        <ul>
-          <li>Certified nutritionist</li>
-          <li>Certified fitness trainer</li>
-          <li>5 years of experience in 1: 1 training</li>
-        </ul>
-      </div>
-
-      <!-- <! - Prices and payment -> -->
-      <div id="price_payment">
-        <h2>Prices and payment</h2>
-        <p>My most important goal is that you get ahead with your goals.</p>
-        <p>
-          In a free opening session we will discuss what you want to achieve and
-          how much you can or want to spend. Then we are guaranteed to find a
-          solution that suits you.
-        </p>
-      </div>
-
-      <!-- <! - Contact -> -->
-      <div id="contact">
-        <div id="email">
-          <p>Your message:</p>
-          <a href="mailto:markusgonzales@gmail.com">Send an Email</a>
+      <main class="px-16 py-6 bg-gray-100">
+        <div class="flex justify-center md:justify-end">
+          <a href="#" class="text-primary">Log in</a>
+          <a href="#" class="ml-2 text-primary">Sign up</a>
         </div>
-        <div id="whatsApp_telefon">
-          <p>WhatsApp:</p>
-          1 222 555 44 33
+
+        <header class="">
+          <h2 class="text-6xl font-semibold text-gray-700">Recipes</h2>
+          <h3 class="text-2xl font-semibold">For Nijnas</h3>
+        </header>
+        <div class="">
+          <!-- first section in header -->
+          <h4 class="pb-2 mt-12 font-bold border-b border-gray-200">
+            Latest Recipes
+          </h4>
+
+          <div class="mt-8">
+            <!-- 1 Card Goes Here -->
+            <div class="card">
+              <img
+                src="./image/stew.jpg"
+                alt="stew"
+                class="object-cover w-full h-32 sm:h-48"
+              />
+
+              <div class="m-4">
+                <span class="font-bold"> 5 Bean Chilli Stew </span>
+                <span class="block text-sm text-gray-500">Recipe by Mario</span>
+              </div>
+              <!-- badge -->
+              <div class="badge">
+                <span class=""> 25 Mins </span>
+              </div>
+              <!-- 1 end of badge -->
+            </div>
+            <!-- end of card -->
+
+            <!-- 2 Card Goes Here -->
+            <div class="card">
+              <img
+                src="./image/noodles.jpg"
+                alt="noodles"
+                class="object-cover w-full h-32 sm:h-48"
+              />
+
+              <div class="m-4">
+                <span class="font-bold"> Veg Noodles </span>
+                <span class="block text-sm text-gray-500">Recipe by Mario</span>
+              </div>
+              <!-- badge -->
+              <div class="badge">
+                <span class=""> 25 Mins </span>
+              </div>
+              <!--  end of badge -->
+            </div>
+            <!-- 2 end of card -->
+
+            <!-- 3 Card Goes Here -->
+            <div class="card">
+              <img
+                src="./image/curry.jpg"
+                alt="curry"
+                class="object-cover w-full h-32 sm:h-48"
+              />
+
+              <div class="m-4">
+                <span class="font-bold"> Tofu Curry </span>
+                <span class="block text-sm text-gray-500">Recipe by Mario</span>
+              </div>
+              <!-- badge -->
+              <div class="badge">
+                <span class=""> 25 Mins </span>
+              </div>
+              <!-- end of badge -->
+            </div>
+            <!-- 3 end of card -->
+          </div>
+
+          <h4 class="pb-2 mt-12 font-bold border-b border-gray-200">
+            Most Popular
+          </h4>
+
+          <div class="mt-8">
+            <!-- card goes here -->
+          </div>
+          <div class="flex justify-center">
+            <div class="bg-secondary-100 text-secondary-200">Load more</div>
+          </div>
         </div>
-      </div>
-    </div>
+      </main>
+    </article>
   </body>
 </html>
